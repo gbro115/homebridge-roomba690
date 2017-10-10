@@ -7,6 +7,15 @@ This Homebridge plugin adds support for the Roomba 690.
 
 It also adds a BatteryService, allowing you to check on the charging status of the 690.
 
+## Credits
+
+This code was built upon the work in the following projects:
+
+* [homebridge](https://github.com/nfarina/homebridge)
+* [dorita980](https://github.com/koalazak/dorita980)
+* [homebridge-roomba980](https://github.com/steedferns/homebridge-roomba980)
+* [homebridge-roomba](https://github.com/umesan/homebridge-roomba)
+
 ## Features
 
 * Start / stop Roomba *Hey Siri, turn on the Roomba*
@@ -53,15 +62,6 @@ Add to your config.json's accessory section:
 To obtain your BLID and Password for your Roomba, refer to [dorita980](https://github.com/koalazak/dorita980#how-to-get-your-usernameblid-and-password)
 
 The Model and Name options can be set to whatever you'd like.
-
-## Credits
-
-This code was built upon the work in the following projects:
-
-* [homebridge](https://github.com/nfarina/homebridge)
-* [dorita980](https://github.com/koalazak/dorita980)
-* [homebridge-roomba980](https://github.com/steedferns/homebridge-roomba980)
-* [homebridge-roomba](https://github.com/umesan/homebridge-roomba)
 
 ## Advice
 
