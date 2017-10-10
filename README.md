@@ -87,7 +87,7 @@ Verify that your configuration is correct:
 
 ```
 [Roomba] Initializing Roomba690 accessory...
-[Roomba] Initialised Roomba with Name: [Roomba] Hostname: [192.168.0.239] BLID: [XXXXXXXXXXXX], Model: [690]
+[Roomba] Initialised Roomba with Name: [Roomba] Hostname: [192.168.0.239] BLID: [XXXXXXXXXXXX] Model: [690]
 [Roomba] Services requested
 [Roomba] Reporting that we support AccessoryInformation, SwitchService and BatteryService
 ```
