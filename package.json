@@ -1,7 +1,7 @@
 {
   "name": "homebridge-roomba690",
   "version": "0.1.0",
-  "description": "Roomba690 for homebridge",
+  "description": "Roomba690 for Homebridge",
   "keywords": [
     "homebridge-plugin"
   ],
