@@ -14,7 +14,8 @@ It also adds a BatteryService, allowing you to check on the charging status of t
 * Check charging status *Hey Siri, is the Roomba charging?*
 * Check battery status *Hey Siri, is the Roomba charged?*
 
-![roomba690-is-charging](https://imgur.com/0QTFQ6O)
+![roomba690-turn-on-roomba](https://i.imgur.com/0QTFQ6Ol.png)
+![roomba690-home-app-details](https://i.imgur.com/EnX2fOCl.png)
 
 ## Installation
 
