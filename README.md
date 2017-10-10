@@ -3,6 +3,8 @@ homebridge-roomba690
 
 Adds support for the Roomba 690 to Homebridge.
 
+This has note yet been uploaded to npm!
+
 ## Installation
 
 `npm install -g homebridge-roomba690`
