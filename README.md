@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/homebridge-roomba690.svg)](http://badge.fury.io/js/homebridge-roomba690)
+
 homebridge-roomba690
 =========
 
