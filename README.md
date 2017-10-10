@@ -37,7 +37,7 @@ Add to your config.json:
 	}
 ```
 To obtain your BLID and Password for your Roomba, refer to [dorita980](https://github.com/koalazak/dorita980#how-to-get-your-usernameblid-and-password)
- *
+
 ## Credits
 
 This code was built upon the work in the following projects:
