@@ -11,34 +11,36 @@ This has note yet been uploaded to npm!
 
 ## Homebridge configuration
 
-Add to your config.json:
+Add to your config.json's accessory section:
 
 ```
+{
+    "bridge": {
+	"name": "Homebridge",
+	"username": "CD:22:3D:E3:CE:30",
+	"port": 51826,
+	"pin": "123-45-678"
+    },
+
+    "description": "My Homebridge",
+
+    "platforms": [],
+
+    "accessories": [
 	{
-	    "bridge": {
-	        "name": "Homebridge",
-	        "username": "CD:22:3D:E3:CE:30",
-	        "port": 51826,
-	        "pin": "123-45-678"
-	    },
-
-	    "description": "My Homebridge",
-
-	    "platforms": [],
-
-	    "accessories": [
-	        {
-	            "accessory": "Roomba690",
-	            "model":"690",            
-	            "name": "Roomba",
-	            "hostname": "ip-address-of-your-roomba",            
-	            "blid":"blid-of-your-roomba",
-	            "password":"password-for-your-roomba"
-	        }
-	    ]
+	    "accessory": "Roomba690",
+	    "model":"690",            
+	    "name": "Roomba",
+	    "hostname": "ip-address-of-your-roomba",            
+	    "blid":"blid-of-your-roomba",
+	    "password":"password-for-your-roomba"
 	}
+    ]
+}
 ```
 To obtain your BLID and Password for your Roomba, refer to [dorita980](https://github.com/koalazak/dorita980#how-to-get-your-usernameblid-and-password)
+
+The Model and Name options can be set to whatever you'd like.
 
 ## Credits
 
