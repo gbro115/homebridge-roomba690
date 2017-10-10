@@ -5,11 +5,12 @@ Adds support for the Roomba 690 to Homebridge.
 
 ## Installation
 
-  `npm install -g homebridge-roomba690`
+`npm install -g homebridge-roomba690`
 
 ## Homebridge configuration
 
-	Add to your config.json
+Add to your config.json:
+
 ```
 	{
 	    "bridge": {
