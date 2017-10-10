@@ -1,0 +1,18 @@
+{
+  "name": "homebridge-roomba690",
+  "version": "0.1.0",
+  "description": "Roomba690 for homebridge",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "gbro115"
+  },
+  "dependencies": {
+    "dorita980": "3.0.6"
+  }
+}
