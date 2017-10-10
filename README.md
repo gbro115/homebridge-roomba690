@@ -10,8 +10,9 @@ It also adds a BatteryService, allowing you to check on the charging status of t
 ## Features
 
 * Start / stop Roomba *Hey Siri, turn on the Roomba*
+* Check on/off status *Hey Siri, is the Roomba on?*
 * Check charging status *Hey Siri, is the Roomba charging?*
-* Check battery status
+* Check battery status *Hey Siri, is the Roomba charged?*
 
 ## Installation
 
