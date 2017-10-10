@@ -1,8 +1,6 @@
 homebridge-roomba690
 =========
 
-**This has not yet been uploaded to npm!**
-
 This Homebridge plugin adds support for the Roomba 690.
 
 It also adds a BatteryService, allowing you to check on the charging status of the 690.
