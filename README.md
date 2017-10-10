@@ -78,35 +78,35 @@ Logging is fairly verbose and should assist you in troubleshooting any issues. L
 
 Make sure that the plugin is actually being loaded:
 
-``
+```
 Loaded plugin: homebridge-roomba690
 Registering accessory 'homebridge-roomba690.Roomba690'
-``
+```
 
 Verify that your configuration is correct:
 
-``
+```
 [Roomba] Initializing Roomba690 accessory...
 [Roomba] Initialised Roomba with Name: [Roomba] Hostname: [192.168.0.239] BLID: [XXXXXXXXXXXX], Model: [690]
 [Roomba] Services requested
 [Roomba] Reporting that we support AccessoryInformation, SwitchService and BatteryService
-``
+```
 
 Whenever you request information, you should see activity in the logs
 
 *Hey Siri, is the Roomba on?*
 
-``
+```
 [Roomba] Power state requested for Roomba
 [Roomba] Connected to Roomba
 [Roomba] Status is [charge]
 [Roomba] Roomba is not running
-``
+```
 
 *Hey Siri, is the Roomba battery charged?*
 
-``
+```
 [Roomba] Battery level requested for Roomba
 [Roomba] Connected
 [Roomba] Roomba battery level [100]
-``
+```
