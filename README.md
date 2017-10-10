@@ -5,8 +5,6 @@ homebridge-roomba690
 
 This Homebridge plugin adds support for the Roomba 690.
 
-Unfortunately, the [homebridge-roomba980](https://github.com/steedferns/homebridge-roomba980) plugin doesn't work with the Roomba 690. This is ultimately due to the 690 not supporting dorita980's getMission() method. homebridge-roomba690 works around this by making use of the methods the 690 does support.
-
 It also adds a BatteryService, allowing you to check on the charging status of the 690.
 
 ## Features
@@ -64,6 +62,14 @@ This code was built upon the work in the following projects:
 ## Advice
 
 As pointed out in the Readme for [dorita980](https://github.com/koalazak/dorita980), it is wise to disable over-the-air firmware updates for your Roomba.
+
+## Why another Roomba plugin?
+
+Unfortunately, the [homebridge-roomba980](https://github.com/steedferns/homebridge-roomba980) or [homebridge-roomba](https://github.com/umesan/homebridge-roomba) plugins don't work with the Roomba 690.
+
+The 690 has a limited feature set in comparison to the higher-end models, a consequence being that it doesn't support some of the methods that these two plugins use from the dorita980 kit.
+
+This plugin uses methods that the 690 does support in order to bring Homebridge support to your Roomba.
 
 ## Troubleshooting
 
