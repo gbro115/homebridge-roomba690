@@ -5,6 +5,12 @@ Adds support for the Roomba 690 to Homebridge.
 
 This has note yet been uploaded to npm!
 
+## Features
+
+* Start / stop Roomba *Hey Siri, turn on the Roomba*
+* Check charging status *Hey Siri, is the Roomba charging?*
+* Check battery status
+
 ## Installation
 
 `npm install -g homebridge-roomba690`
