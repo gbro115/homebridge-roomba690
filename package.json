@@ -12,6 +12,10 @@
   "author": {
     "name": "gbro115"
   },
+   "repository": {
+    "type": "git",
+    "url": "git://github.com/gbro115/homebridge-roomba690.git"
+  }, 
   "dependencies": {
     "dorita980": "3.0.6"
   }
