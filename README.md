@@ -1,3 +1,5 @@
+## This project is not being actively updated. Please feel free to create a fork and develop extra functionality!
+
 [![npm version](https://badge.fury.io/js/homebridge-roomba690.svg)](http://badge.fury.io/js/homebridge-roomba690)
 
 homebridge-roomba690
